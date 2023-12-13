@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Property Tax Calculator</title>
+</head>
+<body>
+    <h1>Calculate Property Tax</h1>
+    <form action="/calculate" method="post">
+        <label for="build_up_area">Total Build up Area (in SqFt): </label>
+        <input type="number" id="build_up_area" name="build_up_area" required><br><br>
+        <label for="months">Number of Months for Water Tax: </label>
+        <input type="number" id="months" name="months" required><br><br>
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
